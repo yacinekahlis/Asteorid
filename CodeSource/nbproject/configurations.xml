@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>Animation.h</itemPath>
+      <itemPath>Character.h</itemPath>
+      <itemPath>Engine.h</itemPath>
+      <itemPath>GameObject.h</itemPath>
+      <itemPath>IObject.h</itemPath>
+      <itemPath>Input.h</itemPath>
+      <itemPath>RigidBody.h</itemPath>
+      <itemPath>TextureManager.h</itemPath>
+      <itemPath>Transform.h</itemPath>
+      <itemPath>Vaisseau.h</itemPath>
+      <itemPath>Vector2D.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>Animation.cpp</itemPath>
+      <itemPath>Character.cpp</itemPath>
+      <itemPath>Engine.cpp</itemPath>
+      <itemPath>GameObject.cpp</itemPath>
+      <itemPath>IObject.cpp</itemPath>
+      <itemPath>Input.cpp</itemPath>
+      <itemPath>RigidBody.cpp</itemPath>
+      <itemPath>TextureManager.cpp</itemPath>
+      <itemPath>Transform.cpp</itemPath>
+      <itemPath>Vaisseau.cpp</itemPath>
+      <itemPath>Vector2D.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="3">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <incDir>
+            <pElem>../../../../../SDL2/include</pElem>
+            <pElem>../../../../../SDL2_IMAGE/include</pElem>
+          </incDir>
+        </ccTool>
+        <archiverTool>
+        </archiverTool>
+      </compileType>
+      <item path="Animation.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Animation.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Character.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Character.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Engine.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Engine.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="GameObject.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="GameObject.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IObject.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="IObject.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Input.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Input.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RigidBody.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="RigidBody.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="TextureManager.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="TextureManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Transform.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Transform.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Vaisseau.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Vaisseau.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Vector2D.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Vector2D.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="3">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <archiverTool>
+        </archiverTool>
+      </compileType>
+      <item path="Animation.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Animation.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Character.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Character.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Engine.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Engine.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="GameObject.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="GameObject.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IObject.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="IObject.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Input.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Input.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RigidBody.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="RigidBody.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="TextureManager.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="TextureManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Transform.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Transform.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Vaisseau.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Vaisseau.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Vector2D.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Vector2D.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
